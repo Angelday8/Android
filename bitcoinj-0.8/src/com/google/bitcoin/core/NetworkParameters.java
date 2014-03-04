@@ -142,9 +142,9 @@ public class NetworkParameters implements Serializable {
             interval = INTERVAL;
             targetTimespan = TARGET_TIMESPAN;
             proofOfWorkLimit = Utils.decodeCompactBits(0x1d00ffffL);
-            acceptableAddressCodes = new int[] { 0 };
-            dumpedPrivateKeyHeader = 128;
-            addressHeader = 0;
+            acceptableAddressCodes = new int[] { 50 };
+            dumpedPrivateKeyHeader = 224;
+            addressHeader = 50;
             port = 12835;
             packetMagic = 0xf9beb4d9L;
             genesisBlock.setDifficultyTarget(0x1d00ffffL);
